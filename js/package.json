@@ -1,0 +1,22 @@
+{
+  "name": "hotwired-baseline",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/js/index.js",
+  "default": "wwwroot/js/index.js",
+  "scripts": {
+    "watch-parcel": "npx parcel watch",
+    "build-parcel": "npx parcel build"
+  },
+  "devDependencies": {
+    "@parcel/resolver-glob": "^2.8.3",
+    "@krebil/parcel-stimulus-automagic": "^1.0.2",
+    "parcel": "^2.8.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.1",
+    "@hotwired/turbo": "^7.3.0"
+  }
+}
